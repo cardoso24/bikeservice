@@ -1,0 +1,35 @@
+header{
+    padding-left:155px;
+    padding-right:155px;
+  }
+   .navbar{
+    
+    background-color:transparent;        
+      height: 100px;
+  }
+  .navbar-brand img{
+    height: 55px;
+    width: 150px;
+    max-width: 100%;
+    margin-top: 20px;
+
+  }
+  .navbar-item {
+      color: whitesmoke;
+      height: 78px;
+  }
+  .logo{
+      color: yellow;
+      font-size: 25px;
+      margin-right: 25px;
+      
+     
+  }
+  .navbar-link{
+      color: whitesmoke;
+
+  }
+  .navbar-dropdown{
+      color: black;
+
+  }
