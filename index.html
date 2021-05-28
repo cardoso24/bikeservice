@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
   <link rel='stylesheet' href='./stylesheets/index.css' />
   <link rel='stylesheet' href='./stylesheets/header.css' />
-  <link rel="stylesheet" href="./images/logo2.png">
+  <link rel='stylesheet' href='./stylesheets/carr.css' />
+  
 </head>
 <html>
 
@@ -37,6 +38,9 @@
                 <a class="navbar-item">
                   Produtos
                 </a>
+                <a class="navbar-item">
+                    Services
+                  </a>
           
                 <div class="navbar-item has-dropdown is-hoverable">
                   <a class="navbar-link">
@@ -81,15 +85,44 @@
           
    | </header>
 
-    <section class="banner-area">
-      <div class="banner">
-        <img src="images/bikeblack1.jpg" alt="">
+  
+<div class="slideshow-container">
 
-        <div class="etiqueta dscrp">FutureBike SystemDown Model 50PX</div>
-        <div class="etiqueta vermais"><a href="#"> VER MAIS</a></div>
-      </div>
-      |
-    </section>
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      
+      <img src="images/bikeblack1-carr.png" style="width:100%">
+      <div class="text">BikeSpeedRace Black</div>
+    </div>
+  
+    <div class="mySlides fade">
+        <img src="images/bikeblack2-carr.png" style="width:100%">
+      <div class="text">Leveza e elegancia</div>
+    </div>
+  
+    <div class="mySlides fade">
+        <img src="images/bikeblack3-carr.png" style="width:100%">
+      <div class="text">Desenho modern</div>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/bikeblack4-carr.png" style="width:100%">
+      <div class="text">Velocidade e seguranca</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
      <section class="container">
       
       <div class="flex"><img src="images/bikeblack2.jpg" alt="">
@@ -135,6 +168,8 @@
         </p>
       </div>
     </footer>
+
+    <script src="js/index.js"></script>   
 </body>
 
 </html>
