@@ -7,11 +7,11 @@
     width: 130px;
     height: 100px;
 }
-.container{
-    
+.container{    
     top: 20px;
     margin-bottom: 25px;
     border: yellow solid 3px;
+    border-radius: 2%;
     width: 950px;
     height: 400px;
     padding: 20px;
