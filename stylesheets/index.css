@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
     height: 100%;
     margin: 0;
@@ -15,16 +18,25 @@ body {
    }
 
     
-     .container{
-       display: flex;
-       flex-direction: row;
-       height: 100%;
+     .container, .card, .card-content, .card-image, .slideshow-container {
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      /*  flex-direction: row; */
+       /* height: 100%; */
        width: 100%;
-       z-index: 999;
-       flex-grow: 1;
+      
+       /* z-index: 999;
+       flex-grow: 1; */
        
           
    }
+   .card-content{
+     background-color: white;
+   }
+   .comprar{
+     width:75%;
+   }
+
    
  
 /* //footer */

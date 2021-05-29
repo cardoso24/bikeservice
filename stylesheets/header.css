@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 header{
     padding-left:155px;
     padding-right:155px;
@@ -34,6 +38,11 @@ header{
 
   }
 
+  .button{
+   background-color: yellow; 
+   color: black;
+  }
+ 
  
   .float {
 	position:fixed;
@@ -55,6 +64,30 @@ header{
     width: 30px;
     height: 20px;
 }
-.float-2{
+@media screen and (min-width: 1300px) {
 
+    .navbar{
+
+        width: 6.25rem;
+        height: 3.25rem;
+        position: relative;
+
+    }
+    .navbar-burger {
+        color: #4a4a4a;
+        cursor: pointer;
+        display: block;
+        height: 3.25rem;
+        position: relative;
+        width: 3.25rem;
+        margin-right: auto;
+    }
+
+    .navbar-brand img{
+        width: 6.25rem;
+        height: 3.25rem;
+        position: relative;
+
+
+    }
 }

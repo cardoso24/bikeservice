@@ -1,4 +1,7 @@
-.logo{
+* {
+    box-sizing: border-box;
+  }
+  .logo{
     display: flex;
     justify-content: center;
     width: 130px;
