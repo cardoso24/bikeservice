@@ -1,4 +1,5 @@
 * {
+  display: grid;
   box-sizing: border-box;
 }
 html {
@@ -18,7 +19,7 @@ body {
    }
 
     
-     body, .container, .card, .card-content, .card-image, .slideshow-container {
+     .container, .card, .card-content, .card-image, .slideshow-container {
        display: grid;
        grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
       /*  flex-direction: row; */
